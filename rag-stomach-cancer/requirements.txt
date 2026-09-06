@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+sentence-transformers
+rank_bm25
+qdrant-client
+openai
+python-dotenv
+pandas
+numpy
+pyarrow
