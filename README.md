@@ -2,10 +2,6 @@
 
 A retrieval-augmented generation (RAG) system built over real, de-identified gastric cancer case reports, with a ChatGPT-style local chat interface. Built to go beyond tutorial-level RAG — this project implements hybrid retrieval, cross-encoder re-ranking, and a measurable eval pipeline to demonstrate *why* naive RAG fails and how each component improves retrieval quality.
 
-## Why this project
-
-Most RAG tutorials stop at "chunk text → embed → vector search → done." That pipeline breaks down on real-world data: keyword-heavy queries get missed by pure vector search, naive fixed-size chunking splits sentences and tables mid-thought, and vector similarity alone often surfaces plausible-sounding but wrong results. This project was built specifically to confront those failure modes and fix them, with before/after evidence.
-
 ## Features
 
 - **Real, messy source data**: gastric/stomach cancer case reports sourced from the [MultiCaRe dataset](https://www.kaggle.com/datasets/mauronievasoffidani/multicare) (built from PMC Open Access case reports) — genuine clinical narrative text, not a clean toy dataset.
