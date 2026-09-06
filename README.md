@@ -40,18 +40,6 @@ Query → Hybrid Retrieval (BM25 + vector, RRF fusion) → Cross-encoder re-rank
 | Frontend | Vanilla JS/HTML/CSS |
 | Prototyping | Kaggle Notebooks |
 
-## Results
-
-> Fill this in with your actual numbers from the eval harness — this is the section reviewers/interviewers will look at first.
-
-| Retrieval strategy | Hit Rate | Precision | Recall | MRR |
-|---|---|---|---|---|
-| Vector-only (naive baseline) | – | – | – | – |
-| Hybrid (BM25 + vector, RRF) | – | – | – | – |
-| Hybrid + re-ranked (full pipeline) | – | – | – | – |
-
-*(Run `evaluate_retrieval()` against `eval_set.json` for each strategy to populate this table — see the eval section in the project notebook.)*
-
 ## Setup
 
 See [`SETUP.md`](./SETUP.md) for full local installation and run instructions.
