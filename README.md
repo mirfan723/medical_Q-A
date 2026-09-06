@@ -42,8 +42,6 @@ Query → Hybrid Retrieval (BM25 + vector, RRF fusion) → Cross-encoder re-rank
 
 ## Setup
 
-See [`SETUP.md`](./SETUP.md) for full local installation and run instructions.
-
 Quick start:
 
 ```bash
